@@ -1,4 +1,4 @@
-baseURL: http://qahello415.github.com/
+baseURL: https://qahello415.github.com/
 languageCode: en-us
 title: QA Hello | Testing, Research Services
 theme: fresh
@@ -59,47 +59,41 @@ params:
   - title: Blog
     url: /
   - title: Contact Us
-    url: /
+    url: Https://www.linkedin.com/sfbayrose
     button: true
 
   section1:
-    title: QA Hello
-    subtitle: All About Quality!
+    title: QA HELLO
+    subtitle: We're all About the quality that makes things count!
     tiles:
-    - title: App builder
+    - title: QA Testing
       icon: mouse-globe
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Free trial
-    - title: Cloud integration
+      text: Advanced manual software and SaaS QA Testing services
+    - title: Data Research and QC
       icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-    - title: Add-ons & plugins
+      text: Specializing in industrial data research and verification processes
+    - title: Orders & Invoicing
       icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
+      text: Ecommerce order management, Harvest Invoicing superpowers 
   section2:
     title: You're here because you want the best
-    subtitle: And we know it
+    subtitle: And we know it!
     features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Powerful assistance you can trust
+      text: Let our years of experience pay off for you. Rose and her small team have over a decade of experience. We can lighten your load, so you can focus on top priorities!
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Manual software QA testing services, mobile and desktop, A11Y focused
+      text: Our small QA team has experience going back to dialup days, with 1st QA experiences on the Netwcape web browser partnership with work at Pacifi Bell Internet. More recently our QA team members have experience centering around SaaS startup work with apps built on Ruby. Let's get together and get those bugs out and crush on roadmap goals.
       icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Stellar eCom management service, Advanced Harvest Invoicing
+      text: Expert handling for orders, invoicng, and more. Rosalie is very conciencious, diligent, and dedicated to getting every task done exactly to your specifications. Extend your reach and grow your success by adding her tallents to your arsenal of resources. Your Orders, your Research Projects, your Harvest Invoicing - put it all in caring hands and rest assured! 
       icon: mobile-feed
   section3:
-    title: One platform
+    title: We Work Hard for you @ QAhello
     subtitle: To rule them all
     image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
+    buttonText: Get With Us!
     buttonLink: "#"
   section4:
     title: Our Clients love us!
