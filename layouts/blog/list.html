@@ -1,0 +1,8 @@
+{{ partial "navbar.html" . }}
+	<main>
+        {{ .Content }}
+        {{ range .Paginator.Pages }}
+		{{ end }}
+
+	</main>
+{{ partial "footer.html" . }}

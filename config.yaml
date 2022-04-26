@@ -1,4 +1,4 @@
-baseURL: https://qahello415.github.com/
+baseURL: http://something-fresh.org/
 languageCode: en-us
 title: QA Hello | Testing, Research Services
 theme: fresh
@@ -11,7 +11,6 @@ markup:
   goldmark:
     renderer:
       unsafe: true # Allows you to write raw html in your md files
-
 params:
   # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
   openGraph: false
@@ -19,147 +18,135 @@ params:
   description: QAhello.com - Providing Software QA Testing, Research and Data QC, and Invoice Management services.
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/fresh.svg
-    link: /
+    image: logos/head-qahello_042122_.svg
+    link: https://qahello.com/
   font:
     name: "Open Sans"
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Quality Assurance, our main ingrediant!
+    title: Quality Assurance, our main ingredient!
     # Hero subtitle (optional)
     subtitle: We're here to serve your needs because we care about your results.
     # Button text
     buttontext: Get In Touch
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: "https://www.linkedin.com/in/sfbayrose"
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/___.svg)
-    clientlogos:
-    - systek
-    - tribe
-    - kromo
-    - infinite
-    - gutwork
+#  clientlogos:
+  #  - systek
+  #  - tribe
+  #  - kromo
+  #  - infinite
+  #  - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: About Us
+  - title: Home
     url: /
+  - title: About
+    url: /about/
   - title: Services
-    url: /
-  - title: Extras
-    sublinks:
-    - title: Good Works
-      url: /
-    - title: Favorite Tools
-      url: /
-    - title: Choice Affiliates
-      url: /
+    url: /services/
   - title: Blog
-    url: /
-  - title: Contact Us
-    url: Https://www.linkedin.com/sfbayrose
+    url: https://www.crmrose.com/
+  - title: Contact
+    url: https://www.linkedin.com/in/sfbayrose
     button: true
-
   section1:
-    title: QA HELLO
-    subtitle: We're all About the quality that makes things count!
+    title: QA Hello Services
+    subtitle: All About the quality. That's what makes things count!
     tiles:
     - title: QA Testing
       icon: mouse-globe
-      text: Advanced manual software and SaaS QA Testing services
-    - title: Data Research and QC
-      icon: laptop-cloud
-      text: Specializing in industrial data research and verification processes
+      text: Advanced manual software and SaaS QA testing, A11Y testing dedication
+      url: /services/
+      buttonText: More Info
     - title: Orders & Invoicing
+      icon: laptop-cloud
+      text: eCom order management maestro, Harvest Invoicing superpowers
+      url: /services/
+      buttonText: More Info
+    - title: Data Research and QC
       icon: plug-cloud
-      text: Ecommerce order management, Harvest Invoicing superpowers 
+      text: Industrial data research, proofing, linting, verification excellence
+      url: /services
+      buttonText: More Info
   section2:
-    title: You're here because you want the best
-    subtitle: And we know it!
+    title: You're here because you want Great Results,
+    subtitle: and we know it!
     features:
     - title: Powerful assistance you can trust
-      text: Let our years of experience pay off for you. Rose and her small team have over a decade of experience. We can lighten your load, so you can focus on top priorities!
+      text: Let our years of experience pay off for you. Rose and her small team have decades of business experience with the services we provide. Allow us to lighten your over-load of daily grind routines and tasks, so you can clear your plate and attain total focus on your top priorities!
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
     - title: Manual software QA testing services, mobile and desktop, A11Y focused
-      text: Our small QA team has experience going back to dialup days, with 1st QA experiences on the Netwcape web browser partnership with work at Pacifi Bell Internet. More recently our QA team members have experience centering around SaaS startup work with apps built on Ruby. Let's get together and get those bugs out and crush on roadmap goals.
+      text: Our small QA team has experience going back to dialup days, with 1st QA experiences on the Netscape web browser partnership with work at Pacific Bell Internet. More recently our QA team members have experience centering around SaaS startup work with apps built on Ruby. Let's get together and get those bugs out and crush on roadmap goals.
       icon: doc-sync
     - title: Stellar eCom management service, Advanced Harvest Invoicing
-      text: Expert handling for orders, invoicng, and more. Rosalie is very conciencious, diligent, and dedicated to getting every task done exactly to your specifications. Extend your reach and grow your success by adding her tallents to your arsenal of resources. Your Orders, your Research Projects, your Harvest Invoicing - put it all in caring hands and rest assured! 
+      text: Expert handling for Orders, Invoicing, and more. Rosalie is very conscientious, diligent, and dedicated to getting every task done exactly to your specifications. Extend your reach and grow your success by adding her talents to your arsenal of resources. Your Orders, your Research Projects, your Harvest Invoicing - put it all in caring hands and rest assured! 
       icon: mobile-feed
-  section3:
-    title: We Work Hard for you @ QAhello
-    subtitle: To rule them all
-    image: illustrations/mockups/app-mockup.png
-    buttonText: Get With Us!
-    buttonLink: "#"
+    - title: Fantastic industrial data research and QC
+      text: Rose can be the captain of your ship in this area! Impeccably accurate data collection, linting, and re-proofing processes that are quality focused. She's a criteria geared stickler. Let her be the guardian of your data quality and viability.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
   section4:
     title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    subtitle: All the way through from dedication to true concern, we've fostered many years of trusting relationships with our clients.
     clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
+    - name: Brooke Smith
+      quote: Lorem ipsum - (Customer comment content forthcoming. Thank you for visiting our new QA Hello site.)
+      job: Business Manager
       img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
+    - name: Chris Danigelis
+      quote: Placeholder - (Client kudos content forthcoming. Thank you for visiting our new QA Hello site.)
+      job: Property Floorplan Exec
       img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
+    - name: Lisa Rogers
+      quote: Lorem ipsum - (Customer comment content forthcoming. Thank you for visiting our new QA Hello site.)
+      job: Industrial Research Mgr
+      img: 1
   section5: true
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: foot-qahello_042222_gscale_.png
     # Social Media Title
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://github.com/lucperkins/github-fresh
-      # Icons are from Font Awesome
-      icon: github
-    - link: https://dribbble.com/#
-      icon: dribbble
-    - link: https://facebook.com/#
-      icon: facebook
-    - link: https://twitter.com/lucperkins
+    - link: https://twitter.com/qahellorose
       icon: twitter
-    - link: https://bitbucket.org/#
-      icon: bitbucket
+    - link: https://www.linkedin.com/in/sfbayrose
+      icon: linkedin
+    - link: https://instagram.org/qahello
+      icon: instagram
+    - link: https://pinterest.com/
+      icon: pinterest
     bulmalogo: true
     quicklinks:
       column1:
-        title: "Product"
+        title: "Company"
         links:
-        - text: Discover features
+        - text: Home
           link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
+        - text: About
+          link: /about/
+        - text: Services
+          link: /services/
+        - text: Contact
+          link: "https://www.linkedin.com/in/sfbayrose"
       column2:
-        title: "Docs"
+        title: "Resources"
         links:
-        - text: Get started
-          link: /
-        - text: User guides
-          link: /
-        - text: Admin guide
-          link: /
-        - text: Developers
-          link: /
+        - text: Good Works
+          link: /good-works/
+        - text: Favorite Tools
+          link: /favorite-tools/
+        - text: Choice Affiliates
+          link: /choice-affiliates/
       column3:
         title: "Blog"
         links:
-        - text: Latest news
-          link: /blog/first
-        - text: Tech articles
-          link: /blog/second
+        - text: Workflow Tidbits
+          link: https://www.crmrose.com/
